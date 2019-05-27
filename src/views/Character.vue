@@ -49,7 +49,7 @@
           </v-list-tile-action>
 
           <v-list-tile-content>
-            <router-link to="/">
+            <router-link to="/home">
               <v-list-tile-title>Search</v-list-tile-title>
             </router-link>
           </v-list-tile-content>
