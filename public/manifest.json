@@ -19,6 +19,6 @@
     }
   ],
   "start_url": "https://superapextrackerv2.netlify.com/index?launcher=true",
-  "theme_color": "#2196F3",
+  "theme_color": "#000000",
   "display": "standalone"
 }
