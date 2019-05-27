@@ -40,7 +40,7 @@
               </v-list-tile-action>
 
               <v-list-tile-content>
-                <router-link to="/index">
+                <router-link to="/">
                   <v-list-tile-title>Home</v-list-tile-title>
                 </router-link>
               </v-list-tile-content>
