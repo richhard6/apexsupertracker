@@ -407,7 +407,7 @@ export default {
   z-index: 3;
 }
 .height {
-  margin-top: 55px;
+  margin-top: 62px;
 }
 </style>
    

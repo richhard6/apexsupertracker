@@ -101,6 +101,7 @@
         </v-card>
       </v-flex>
     </v-layout>
+    <div class="height"></div>
     <v-footer fixed dark height="auto">
       <v-card class="flex" flat tile>
         <v-card-title class="red darken-2">
@@ -176,5 +177,8 @@ export default {
   -ms-flex: 1 0 0px;
   flex: 1 0 0px;
   height: 185px;
+}
+.minifoto {
+  margin-bottom: 20px;
 }
 </style>
