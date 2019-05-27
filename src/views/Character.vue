@@ -411,4 +411,3 @@ export default {
 }
 </style>
    
-  //  v-if planet lenght is empty = don't show .
