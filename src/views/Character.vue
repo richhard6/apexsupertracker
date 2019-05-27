@@ -113,7 +113,7 @@
                     </v-dialog>
                   </v-layout>
                   <v-container class="baby" fluid>
-                    <v-layout justify-center class="mb-2">
+                    <v-layout class="mb-2 foticos" justify-center>
                       <v-img relative class="skill" :src="lores.characters[0][name].tacticalImg"></v-img>
                       <v-img relative class="skill" :src="lores.characters[0][name].passiveImg"></v-img>
                       <v-img relative class="skill" :src="lores.characters[0][name].ultimateImg"></v-img>
@@ -206,7 +206,7 @@
         </v-layout>
       </v-container>
     </v-content>
-
+    <div class="height"></div>
     <v-footer fixed dark height="auto">
       <v-card class="flex" flat tile>
         <v-card-title class="red darken-2">
@@ -356,8 +356,9 @@ export default {
   height: 370px;
 }
 .skill {
-  height: 80px;
-  display: block;
+  height: 93px;
+  margin-right: 45px;
+  margin-left: -41px;
 }
 .baby {
   margin-left: 55px;
@@ -368,18 +369,23 @@ export default {
 }
 .botones {
   margin: 56px;
+  z-index: 4;
+  margin-bottom: 50px;
 }
 .cakilla {
   left: 112px;
   top: 585px;
+  height: 30%;
 }
 .papilla {
   left: 40px;
   top: 585px;
+  height: 30%;
 }
 .flipilla {
   right: 58px;
   top: 585px;
+  height: 30%;
 }
 .v-btn--bottom.v-btn--absolute.v-btn--small {
   bottom: -20px;
@@ -389,6 +395,19 @@ export default {
 
 .headline {
   text-transform: capitalize;
+}
+.foticos {
+  justify-content: center;
+}
+.v-icon scope {
+  margin-bottom: 80px;
+}
+.v-btn--floating.v-btn--fixed,
+.v-btn--floating.v-btn--absolute {
+  z-index: 3;
+}
+.height {
+  margin-top: 55px;
 }
 </style>
    
