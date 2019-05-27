@@ -18,7 +18,7 @@
       "sizes": "192x192"
     }
   ],
-  "start_url": "index.html?launcher=true",
+  "start_url": "https://superapextrackerv2.netlify.com/index?launcher=true",
   "theme_color": "#2196F3",
   "display": "standalone"
 }
