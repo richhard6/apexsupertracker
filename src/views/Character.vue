@@ -112,11 +112,11 @@
                       </v-card>
                     </v-dialog>
                   </v-layout>
-                  <v-container class="baby" fluid>
-                    <v-layout class="mb-2 foticos" justify-center>
-                      <v-img relative class="skill" :src="lores.characters[0][name].tacticalImg"></v-img>
-                      <v-img relative class="skill" :src="lores.characters[0][name].passiveImg"></v-img>
-                      <v-img relative class="skill" :src="lores.characters[0][name].ultimateImg"></v-img>
+                  <v-container class="baby foticos" fluid>
+                    <v-layout class justify-center>
+                      <v-img class="skill" :src="lores.characters[0][name].tacticalImg"></v-img>
+                      <v-img class="skill" :src="lores.characters[0][name].passiveImg"></v-img>
+                      <v-img class="skill" :src="lores.characters[0][name].ultimateImg"></v-img>
                     </v-layout>
                     <div>
                       <v-btn
@@ -408,6 +408,13 @@ export default {
 }
 .height {
   margin-top: 62px;
+}
+.v-responsive__content {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 0px;
+  flex: 1 0 0px;
+  height: 185px;
+  width: 82px;
 }
 </style>
    

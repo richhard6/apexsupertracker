@@ -108,6 +108,7 @@
                       type="text"
                       v-model="searchValue"
                       single-line
+                      placeholder="Write the player name here..."
                     ></v-text-field>
                   </v-toolbar>
                 </v-toolbar-items>
@@ -166,7 +167,7 @@ export default {
       aid: [],
       players: [],
       prePlayer: [],
-      searchValue: "Alfawixi",
+      searchValue: "",
       imgs: [
         "bangalore.png",
         "bloodhound.png",
