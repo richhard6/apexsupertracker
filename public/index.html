@@ -3,7 +3,28 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width = device-width, initial-scale = 1.0, minimum-scale = 1, maximum-scale = 1, user-scalable = no"
+    />
+    <meta name="apple-mobile-web-app-title" content="r_Apextracker" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="apple-touch-icon" href="logox.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="logox.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="logox.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="logox.png" />
+    <link rel="apple-touch-startup-image" href="logox.png" />
+    <link
+      rel="apple-touch-startup-image"
+      href="logox.png"
+      media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)"
+    />
+    <link
+      rel="apple-touch-startup-image"
+      href="logox.png"
+      media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)"
+    />
     <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
     <link rel="manifest" href="/manifest.json" />
     <title>trackerapex</title>
@@ -26,4 +47,16 @@
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      // iOS web app full screen hacks.
+      if (window.navigator.standalone == true) {
+        // make all link remain in web app mode.
+        $("a").click(function() {
+          window.location = $(this).attr("href");
+          return false;
+        });
+      }
+    });
+  </script>
 </html>
