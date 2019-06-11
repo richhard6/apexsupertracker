@@ -6,6 +6,12 @@ import Lore from "./views/Lore.vue";
 import Index from "./views/Index.vue";
 import Character from "./views/Character.vue";
 
+import Chat from "./components/Chat.vue";
+
+import Chatcloud from "./components/Chatcloud.vue";
+
+import Login from "./views/Login.vue";
+
 Vue.use(Router);
 
 export default new Router({
@@ -43,6 +49,21 @@ export default new Router({
       name: "character",
       component: Character,
       props: true
+    },
+    {
+      path: "/chat",
+      name: "chat",
+      component: Chat
+    },
+    {
+      path: "/chatcloud",
+      name: "Chatcloud",
+      component: Chatcloud
+    },
+    {
+      path: "/login",
+      name: "Login",
+      component: Login
     }
   ]
 });
