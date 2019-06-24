@@ -6,8 +6,6 @@ import Lore from "./views/Lore.vue";
 import Index from "./views/Index.vue";
 import Character from "./views/Character.vue";
 
-import Chat from "./components/Chat.vue";
-
 import Chatcloud from "./components/Chatcloud.vue";
 
 import Login from "./views/Login.vue";
@@ -50,11 +48,7 @@ export default new Router({
       component: Character,
       props: true
     },
-    {
-      path: "/chat",
-      name: "chat",
-      component: Chat
-    },
+
     {
       path: "/chatcloud",
       name: "Chatcloud",
