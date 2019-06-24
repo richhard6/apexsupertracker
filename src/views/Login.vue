@@ -4,7 +4,7 @@
 
     <button @click="login">Login with Google</button>
     <router-link to="/chatcloud">
-      <button>hola</button>
+      <button>Go to the chat!!</button>
     </router-link>
   </div>
 </template>
