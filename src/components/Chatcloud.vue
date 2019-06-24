@@ -92,7 +92,7 @@
           <span class="time">{{message.createdAt}} {{message.author}}</span>
         </div>-->
         <div class="megaprueba" max-height="300px">
-          <ul class="messages prueba" v-chat-scroll="{always: false, smooth: true}">
+          <ul class="messages prueba">
             <li class="message" v-for="message in messages" :key="message.id">
               {{message.message}}
               <span class="time">{{message.createdAt}} {{message.author}}</span>
@@ -118,7 +118,7 @@
     <v-footer fixed dark height="auto">
       <v-card class="flex" flat tile>
         <v-card-title class="red darken-2">
-          <strong class="subheading">Follow us on our social networkss</strong>
+          <strong class="subheading">Follow us on our social networks</strong>
 
           <v-spacer></v-spacer>
         </v-card-title>
