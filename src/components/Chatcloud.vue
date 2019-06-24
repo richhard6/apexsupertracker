@@ -125,7 +125,7 @@
 
         <v-card-actions class="grey darken-3 justify-center">
           &copy;2019 —
-          <strong>Richard</strong>
+          <strong>Richard P</strong>
         </v-card-actions>
       </v-card>
     </v-footer>
