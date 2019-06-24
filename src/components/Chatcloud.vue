@@ -118,7 +118,7 @@
     <v-footer fixed dark height="auto">
       <v-card class="flex" flat tile>
         <v-card-title class="red darken-2">
-          <strong class="subheading">Follow us on our social networks</strong>
+          <strong class="subheading">Follow us on our social networkss</strong>
 
           <v-spacer></v-spacer>
         </v-card-title>
